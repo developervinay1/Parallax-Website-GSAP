@@ -20,18 +20,80 @@
         <div id="right">
           <ul>
             <li>facebook</li>
-            <li>x</li>
+            <li>twitter</li>
             <li>instagram</li>
           </ul>
         </div>
       </footer>
     </div>
     <div id="background">
-      <img src="./images/sky.png" alt="" />
-      <img src="./images/pahad1.png" alt="" />
-      <img src="./images/pahadman.png" alt="" />
+      <img
+        data-depth=".08"
+        id="skyImage"
+        class="parallax"
+        src="./images/sky.png"
+        alt=""
+      />
+      <img
+        data-depth=".1"
+        class="parallax"
+        id="mountainImage"
+        src="./images/pahad1.png"
+        alt=""
+      />
+      <img
+        id="manImage"
+        data-depth=".2"
+        class="parallax"
+        src="./images/pahadman.png"
+        alt=""
+      />
       <div id="gradient"></div>
     </div>
+    <div id="content">
+      <div id="elemWrapper">
+        <div class="elems">
+          <div class="blocks">
+            <div class="img"></div>
+            <h2>Air</h2>
+          </div>
+          <div class="blocks">
+            <div class="img2"></div>
+            <h2>land</h2>
+          </div>
+        </div>
+        <div class="elems">
+          <div class="blocks">
+            <div class="img3"></div>
+            <h2>sea</h2>
+          </div>
+          <div class="blocks">
+            <div class="img4"></div>
+            <h2>space</h2>
+          </div>
+        </div>
+      </div>
+      <div id="contentPara">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt officiis
+          nisi provident, ut nam quibusdam quaerat, accusamus eligendi soluta
+          architecto odit molestiae dolorem. Asperiores aperiam eum impedit
+          obcaecati necessitatibus dicta beatae maxime soluta quidem.
+        </p>
+      </div>
+    </div>
   </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+    integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+    integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
   <script src="script.js"></script>
 </html>
